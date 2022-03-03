@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Voo - Encontre o lugar certo</title>
+    <link rel="stylesheet" type="text/css" href="_css/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="_css/mochileiros.css" />
+    <script src="_javascript/funcoes.js"></script>
+
+</head>
+
+<body>
+    <div id="interface">
+        <header id="cabecalho">
+            <img id="icone" src="_imagens/imagem_logob.png" />
+            <input type="search" id="search" />
+            <nav id="menu">
+                <ul>
+                    <li><a href="index.html">Noticias</a></li>
+                    <li><a href="destinos.html">Destinos</a></li>
+                    <li><a href="mochileiros.html">Mochileiros</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="corpo-full">
+            <article>
+                <ul id="album-fotos">
+                    <li id="foto01">
+                        <span>Marcela Pinho</span>
+                        <p>
+                            Conhecer lugares novos me proporcionou oportunidades cada vez maiores de aprimorar o idioma e de conseguir uma vaga em uma empresa internacional
+                        </p>
+                    </li>
+                    <li id="foto02">
+                        <span>Fernando Munhoz</span>
+                        <p>
+                            Sou apaixonado por viagem e por conhecer coisas novas. Acredito que todos nos deviamos se dedicar um tempo para aproveitar o que o mundo tem a nos oferecer
+
+                        </p>
+                    </li>
+                    <li id="foto03">
+                        <span>Camila Silva</span>
+                        <p>
+                            Minhas experiencias com viagem foi muito para aprimorar cada vez mais o idioma inglês e visitar meus amigo
+
+                        </p>
+                    </li>
+                </ul>
+            </article>
+        </section>
+        <figure class="foto-legenda">
+            <img src="_imagens/imagem_lago.png">
+            <figcaption>
+                <h1>Conheça o mundo e as coisas</h1>
+            </figcaption>
+        </figure>
+
+        <form method="post" id="contato">
+
+            <input type="text" name="cnome" id="tnome" placeholder="Digite seu nome">
+            <input type="button" name="cimagem" id="timagem" value="Insira uma Imagem">
+
+            <textarea name="tmsg" id="cmsg" cols="50" rows="10" placeholder="Deixe seu comentário..."></textarea>
+
+            <input type="submit" class="submit" value="Enviar" name="tEnviar" id="cenviar">
+
+        </form>
+
+
+        <footer id="rodape">
+            <img id="icone-rodape-mochileiros" src="_imagens/imagem_logob.png" />
+            <h5>Informação Empresa</h5>
+
+            <p>
+                Tel: (11) 4100-0000<br/> E-mail: voa@com.br<br/> CNPJ: 01.001.001/0001-01<br/><br/>
+            </p>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
